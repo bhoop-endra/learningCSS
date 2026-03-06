@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box theory</title>
+    <style> 
+    *{margin: 0;
+    padding: 0;
+    border: 2px dashed red;
+
+}
+        .bvc{ width: 100px;
+            height: 50px;
+            padding: 15px 5px 5px 35px;
+            border: 6px solid blueviolet;
+            margin: 25px;
+            border-radius: 0px;
+
+        }
+        #bhk{
+            background-color: aqua;
+            box-sizing: border-box;
+        
+    
+        }
+        #bnm{background-color:green;
+            box-sizing: content-box;
+        
+        
+        }
+
+
+    </style>
+</head>
+<body>
+   <div id="bhk" class="bvc">Bhoopendra</div> 
+   <div id="bnm" class="bvc">Bhoopendra</div>
+</body>
+</html>

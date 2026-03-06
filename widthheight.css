@@ -1,0 +1,12 @@
+/* div{width: 200px; height: 100px; background-color: aqua;}
+#icon{background-image: url(myntralogo.png);background-size: contain;background-repeat:no-repeat;background-position:bottom;background-color: aqua;} */
+.box{height: 50px;width: 50px;}
+#icon{background-color: aqua;visibility: hidden;}
+#icon2{background-color: blue;}
+
+p{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
