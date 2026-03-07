@@ -1,2 +1,2 @@
-#Bhoopendra is learning CSS
-#bhoopendra gurjar is very discipline
+# Bhoopendra is learning CSS
+# bhoopendra gurjar is very discipline
