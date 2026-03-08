@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+          #rty{
+            
+            border: 2px solid ;
+            width: 100px;
+            height: 75px;
+            padding: 25px;
+            background-color:forestgreen;
+            position: relative;
+            top: 50px;
+            left: 100px;
+            /* transform: rotate(36deg); */
+            /* transform: scale(2); */
+            animation-name: ghumkaad;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 2s;
+            animation-iteration-count: 50;
+            animation-direction: normal;
+        }
+
+            @keyframes ghumkaad{
+                from{ left: 10px; border-radius: 50px;}
+                to{ left: 150px; border-radius: 150px}
+            }
+
+
+    </style>
+
+<body>
+
+    <div id="rty">Bhoopendra</div>
+
+</body>
+
+</html>
